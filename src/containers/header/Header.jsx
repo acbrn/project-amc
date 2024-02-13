@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <div className='projectAMC__header section__padding' id='home'>
       <div className='projectAMC__header-content'>
-        <h1 className='gradient__text'>Welcome to ProjectAMC! The project I made using React</h1>
-        <p>Sample Text here</p>
+        <h1 className='gradient__text'>Welcome to ProjectAMC! </h1>
+        <p>The project I made using React</p>
         
         <div className='projectAMC__header-content__input'>
           <input type='email' placeholder='Your email address' />
@@ -18,7 +18,7 @@ const Header = () => {
           
           <div className='projectAMC__header-content__people'>
             <img src= {people} alt='ProjectAMC Logo' />
-            <p>My page</p>
+            <p>Andrew Coburn</p>
           </div>
       </div>
             <div className='projectAMC__header-image'>

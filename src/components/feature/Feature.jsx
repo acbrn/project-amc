@@ -10,7 +10,7 @@ const Feature = ({ title, text }) => {
         <h1>{ title }</h1>
       </div >
       <div className='projectAMC__features-container__feature-text'>
-        { text }
+        <p>{ text } </p>
       </div>
     </div>
   )
